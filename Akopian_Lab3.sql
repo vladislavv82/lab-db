@@ -1,4 +1,4 @@
-SELECT locations.location_id, street_address, city, state_province, country_name, department_name from locations natural join countries, departments;
+SELECT locations.location_id, street_address, city, state_province, country_name, department_name FROM locations NATURAL JOIN countries, departments;
 
 SELECT first_name, last_name, department_id, department_name FROM employees JOIN departments USING (department_id);
 
